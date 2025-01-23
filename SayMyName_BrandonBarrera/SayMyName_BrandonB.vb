@@ -3,6 +3,9 @@
 'RCET2265
 'SayMyName
 'https://github.com/BrandLeBar/SayMyName_BrandonBarrera.git
+
+Option Explicit On
+Option Strict On
 Module SayMyName_BrandonB
 
     Sub Main()
