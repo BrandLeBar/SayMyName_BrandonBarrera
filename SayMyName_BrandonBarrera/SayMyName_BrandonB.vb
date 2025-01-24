@@ -15,11 +15,7 @@ Module SayMyName_BrandonB
         Name = Console.ReadLine 'Set their name as a variable
         Console.WriteLine()
 
-        If (Name = "Danger") Or (Name = "Walter") Or (Name = "danger") Or (Name = "walter") Or (Name = "Heisenburg") Or (Name = "heisenburg") Then
-            Console.WriteLine("Hello Mr.White")
-        ElseIf (Name = Name) Then
-            Console.WriteLine("Your Name is " & Name & "!") 'Say their name
-        End If
+        Console.WriteLine($"Your Name is {Name}!") 'Say their name
 
     End Sub
 
